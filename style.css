@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    padding-left: 100px;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d7fafc;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    align-items: center;
+}
+
+li, a {
+    font-size: 14px;
+    text-decoration: none;
+    padding: 4px;
+    color: black;
+    
+}
+
+.oke {
+    border: 0.6px solid #2196F3;
+    background: #2196F3;
+    cursor: pointer;
+    padding-right: 100px;
+    color: white;
+    text-align: center;
+}
+
+.sec {
+    padding- left: 50px;
+    padding-right: 50px;
+}
+
+.space {
+    height: 100px;
+}
+
+i {
+    align-items: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-column-gap: 10px;
+}
+.Cont {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat (2, 50%);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+}
+
+.sub {
+    position: center;
+}
+.firstimage {
+    height: 360px;
+    width: 450px;
+    border-radius: 5%;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 10px;
+  border: 0.6px solid grey;
+  float: left;
+  width: 60%;
+  background: white;
+}
+
+/* Style the submit button */
+.btn {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 10px;
+  border: 0.5px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+b {
+    text-align: center;
+}
+p {
+    font-size: 10px;
+}
+
+.foot
